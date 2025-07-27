@@ -86,7 +86,7 @@ const EditPage = ({ data }) => {
                         type="text"
                         name="name"
                         placeholder={oldInfo[0] ? oldInfo[0].name : "nah"}
-                        style={{ "width": "200px", "margin": "10px" }}
+                        style={{ "width": "400px", "margin": "10px" }}
                         onChange={handleChange}
                     />
                 </label>
@@ -96,14 +96,14 @@ const EditPage = ({ data }) => {
                         type="number"
                         name="speed"
                         placeholder={oldInfo[0] ? oldInfo[0].speed : "nah"}
-                        style={{ "width": "200px", "margin": "10px" }}
+                        style={{ "width": "400px", "margin": "10px" }}
                         onChange={handleChange}
                     />
                 </label>
                 <br></br>
                 <label>
                     New Color:
-                    <select style={{ "margin": "10px" }} name="color" onChange={handleChange}>
+                    <select style={{ "margin": "10px", width:"200px" }} name="color" onChange={handleChange}>
                         <option value="" disabled selected>
                             {oldInfo[0] ? oldInfo[0].color : "nah"}
                         </option>

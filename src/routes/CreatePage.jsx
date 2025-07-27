@@ -40,7 +40,7 @@ function CreatePage() {
                             type="text"
                             name="name"
                             placeholder="Enter the name of your crewmate"
-                            style={{ "width": "200px", "margin": "10px" }}
+                            style={{ "width": "400px", "margin": "10px" }}
                             onChange={handleChange}
                         />
                     </label>
@@ -50,14 +50,14 @@ function CreatePage() {
                             type="number"
                             name="speed"
                             placeholder="Enter the speed of your crewmate"
-                            style={{ "width": "200px", "margin": "10px" }}
+                            style={{ "width": "400px", "margin": "10px" }}
                             onChange={handleChange}
                         />
                     </label>
                     <br></br>
                     <label>
                         Pick a color:
-                        <select style={{ "margin": "10px" }} name="color" onChange={handleChange}>
+                        <select style={{ "margin": "10px", width:"200px" }} name="color" onChange={handleChange}>
                             <option value="" disabled selected>
                             </option>
                             <option value="Pink">Pink</option>
