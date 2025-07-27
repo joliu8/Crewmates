@@ -32,17 +32,17 @@ function CrewmatePage() {
 
     return (
         <>
-            <div className="current-info">
-                <h1>Current Crewmate Info:</h1>
+            <h1>Current Crewmate Info:</h1>
+            <div className="current-info" style={{ backgroundColor: oldInfo[0] ? oldInfo[0].color : "nah" }}>
                 {oldInfo && oldInfo.length > 0 ? (<>
                     <h2>Name: {oldInfo[0].name}</h2>
                     <h2>Speed: {oldInfo[0].speed}</h2>
                     <h2>Color: {oldInfo[0].color}</h2>
-                    <img style={{width:"500px"}}src={meme1}/>
-                    <img style={{width:"500px"}}src={meme2}/>
                 </>) : (<p>oop</p>)
                 }
             </div>
+            <img style={{ width: "500px" }} src={meme1} />
+            <img style={{ width: "500px" }} src={meme2} />
         </>
     )
 }

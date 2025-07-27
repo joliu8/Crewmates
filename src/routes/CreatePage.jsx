@@ -58,6 +58,8 @@ function CreatePage() {
                     <label>
                         Pick a color:
                         <select style={{ "margin": "10px" }} name="color" onChange={handleChange}>
+                            <option value="" disabled selected>
+                            </option>
                             <option value="Pink">Pink</option>
                             <option value="Red">Red</option>
                             <option value="Orange">Orange</option>
