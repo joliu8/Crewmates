@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background: #1d1f1d;
+  margin: 20px 30px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+ul li{
+  display: inline-block
+}
+li{
+  margin:10px;
+}
+
+.Card{
+  margin:30px;
+  display:flex;
+  align-items: center;
+  img{
+    width:100px;
+  }
+  padding: 20px;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  img{
+    width:100px;
+  }
+}
+nav{
+  border:solid;
+  ul{
+    margin:10px;
+  }
+}
+input, select{
+  margin:5px;
+  font-size: large;
+  border-color: white;
+}
+.delete-button{
+  background-color: rgb(182, 85, 85);
+}
